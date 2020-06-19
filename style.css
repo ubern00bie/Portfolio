@@ -1,4 +1,9 @@
 
+#navbar {
+    color:rgba(247, 239, 239, 0.8);
+    padding-top:50px;
+    margin-left:50px;
+}
 
 header {
     background-color:rgba(0, 0, 0, 0.9);
@@ -7,7 +12,7 @@ header {
 }
 body {
     background-image:url(images/landing.jpg);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size:cover;
 }
 .logo {
@@ -16,7 +21,9 @@ body {
     margin-top:8px;
     margin-left:35px;
     padding:5px;
-    
+}
+h3 {
+    text-align:center;
 }
 a {
     color:white;
@@ -53,8 +60,9 @@ header::after {
 }
 .col h1 {
     font-family: 'Poppins', sans-serif;
-    position:relative;
-    left: 10%;
+    text-align:center;
+    /* position:relative; */
+    /* left: 50%; */
 }
 #self {
     margin-left:60px;
@@ -73,21 +81,8 @@ hr.style-one {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-/* assignment 16 */
-.centerMe {
-    text-align:right;
-}
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.navbar {
-    background-color:gray;
-}
-@media screen and (min-width: 1500px) {
-    header {
-        background-color:blue;
-        opacity:0.5;
-    }
-}
+
+/* @media screen and (min-width: 1500px) { */
+    /* header {#; */
+    /* } */
+/* } */
