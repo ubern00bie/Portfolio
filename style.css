@@ -1,0 +1,93 @@
+
+
+header {
+    background-color:rgba(0, 0, 0, 0.9);
+    width:80%;
+    margin:auto;
+}
+body {
+    background-image:url(images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.logo {
+    float:left;
+    height:75px;
+    margin-top:8px;
+    margin-left:35px;
+    padding:5px;
+    
+}
+a {
+    color:white;
+}
+.nav {
+    float: right; 
+}
+
+.nav ul {
+    margin-right: 50px;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    margin-top:10;
+    margin:25;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.main {
+    background-color:rgba(247, 239, 239, 0.8);
+    margin:auto;
+    width:80%;
+    padding:10px;
+    border:1px solid black;
+    background-repeat: no-repeat;
+    font-size:18px;
+}
+.col h1 {
+    font-family: 'Poppins', sans-serif;
+    position:relative;
+    left: 10%;
+}
+#self {
+    margin-left:60px;
+    padding:20px;
+    height:500px;
+}
+#hammock {
+    margin-top:50px;
+    padding:20px;
+    height:500px;
+}
+/* Horizontal Rule Styling */
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* assignment 16 */
+.centerMe {
+    text-align:right;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color:gray;
+}
+@media screen and (min-width: 1500px) {
+    header {
+        background-color:blue;
+        opacity:0.5;
+    }
+}
