@@ -14,18 +14,18 @@
     <h1 id="navbar">Student Web Developer</h1>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
+        <a class="nav-link" href="index.html">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="portfolio.html">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Me</a>
+        <a class="nav-link" href="contact.html">Contact Me</a>
       </li>
     </ul>
   </header>
 <!-- About Me -->
-  <div class="main">
+  <section class="main">
     <div class="container">
       <div class="row">
         <div class="col col-md-12">  
@@ -52,29 +52,24 @@
             <img id="headshot" src="images/jordanB.jpg" alt="Image of Jordan Benningfield">
           </div>
         </div>
-        <div class="col col-md-12"> 
-          <h3 id="projects">Below you can see some of the projects that I've been working on.</h3>       
-        </div>
+        
        
-        <div class="col col-md-6">
-            <img id="hammock" src="images/slide2.jpg" alt="Image of hammocker with a view">
-      </div>
-        <div class="col col-md-6">
-          <p class="whiteText"> Bacon ipsum dolor amet pig rump bresaola alcatra turkey brisket prosciutto ham hock.
-          Biltong jowl venison strip steak pork belly, drumstick t-bone salami.
-          Kielbasa cow capicola ribeye, ground round fatback beef ribs sirloin corned beef.
-          Pastrami hamburger pork loin turducken short ribs bacon flank porchetta pork chop brisket. 
-          Rump short ribs doner kevin drumstick capicola fatback cupim pork belly salami tongue meatloaf bresaola alcatra bacon.
-          Pig burgdoggen turkey boudin landjaeger strip steak.</p>
-  
-          <p class="whiteText"> Chislic buffalo meatball boudin venison porchetta tongue.
-          Short ribs pig kielbasa drumstick jowl pork pancetta sirloin buffalo cupim. 
-          Short loin meatball strip steak filet mignon burgdoggen beef. Ball tip kielbasa turducken, salami ribeye doner drumstick tri-tip.
-          Kielbasa meatball rump swine, ground round ham alcatra tri-tip buffalo capicola tongue porchetta.
-          Rump buffalo t-bone, turducken kielbasa pork loin capicola beef swine pig jerky fatback short ribs flank tongue. 
-          Shankle shank andouille pork, pastrami ribeye chislic swine flank picanha burgdoggen cupim ball tip.</p>
+       
+            <!-- These forms will need to be linked to something -->
+            <div class="form-group">
+              <label for="contactName">Name</label>
+              <input type="name" class="form-control" id="contactName">
+            </div>
+            <div class="form-group">
+              <label for="InputEmail">Email address</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
         </div>
     </div>
-  </div>  
+  </section>  
 </body>
 </html>
