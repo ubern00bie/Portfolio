@@ -33,7 +33,7 @@ header::after {
 
 header {
     background-color:rgba(0, 0, 0, 0.9);
-    width:80%;
+    /* width:80%; */
     margin:auto;
 }
 /* Main Body Styling */
@@ -45,7 +45,7 @@ body {
 .main {
     background-color:rgba(247, 239, 239, 0.7);
     margin:auto;
-    width:80%;
+    /* width:80%; */
     padding:50px;
     border:1px solid black;
     background-repeat: no-repeat;
