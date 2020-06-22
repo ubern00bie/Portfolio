@@ -25,7 +25,6 @@ header::after {
     display: table;
     clear: both;
 }
-
 header {
     background-color:rgba(0, 0, 0, 0.9);
     margin:auto;
@@ -59,22 +58,10 @@ hr.style-one {
     height: auto;
     max-width: 100%;
 }
-/* .cropped {
-    width:100px;
-    height:100px;
-    margin:auto;
-    overflow: hidden;
-    border-radius:50%;
-} */
+
 /* Contact Page h3 */
 h3 {
     margin-top:100px;
     text-align:center;
 }
-/* practice image */
-#hammock {
-    margin-top:50px;
-    padding:20px;
-    height: auto;
-    max-width: 100%;
-}
+
