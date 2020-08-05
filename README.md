@@ -13,6 +13,8 @@ On my "portfolio" page I used the same NavBar again and utilized the grid system
 
 Take a look at the deployed website here: https://ubern00bie.github.io/Portfolio/
 
+Contact info: jbenningfield.dev@gmail.com
+
 ![Portfolio Demo](./images/Portfolio1.PNG)
 ![Portfolio Demo](./images/Portfolio2.PNG)
 
