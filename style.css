@@ -9,8 +9,11 @@ html {
     padding-left:25px;
     text-align:left;
 }
-h2 {
+h1 h2 {
     text-align:center;
+}
+h1 {
+    margin-top:15px;
 }
 /* Navigation Link Color */
 a {
@@ -84,6 +87,12 @@ hr.style-one {
 h3 {
     margin-top:30px;
     text-align:center;
+}
+#resumeLink {
+ margin-left: auto;
+ margin-right: auto;
+ color:blue;
+ font-weight: bold ;
 }
 /* Footer styling */
 footer{
