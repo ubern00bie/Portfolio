@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route , Redirect} from "react-router-dom";
 import './App.css';
 
 function App() {
