@@ -1,3 +1,4 @@
+import react from 'react'
 import Project from '../project'
 import ProjectData from '../projectData/projects.json'
 import image1 from '../../images/dayPlanner.PNG'

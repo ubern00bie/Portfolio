@@ -12,10 +12,18 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/projects">Projects</a>
+      <Link
+        to="/about"
+        className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+        Projects
+        </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/contact">Contact Me</a>
+      <Link
+        to="/about"
+        className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+        Contact Me
+        </Link>
       </li>
     </ul> 
   )
