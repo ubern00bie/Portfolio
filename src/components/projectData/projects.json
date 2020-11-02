@@ -1,0 +1,45 @@
+[
+  {
+    "Style":"light",
+    "Title":"Work Day Scheduler powered by JavaScript",
+    "Description":"One project that has proven useful for me is this Work Day Scheduler powered by JavaScript. One can pull the planner up on their computer or phone and type a task into the text area. The task is saved to local storage and the time blocks adjust their color based on the current time of day.",
+    "Link":"https://ubern00bie.github.io/DayPlanner/",
+    "Image":"/static/media/dayPlanner.d11cdc48.PNG"
+  },
+  {
+    "Style":"dark",
+    "Title":"Weather Dashboard - Powered by OpenWeatherMap API",
+    "Description":" For one of my recent homework assignments I was tasked with creating a responsive weather app powered by the openWeatherMap API using JavaScript. Enter a new city to save it to the search history and you can search that city in the future with the button generated.",
+    "Link":"https://ubern00bie.github.io/WeatherApp/",
+    "Image":"/static/media/weatherApp.752c468f.PNG"
+  },
+  {
+    "Style":"light",
+    "Title":"Collaborative Project - SpaceX and Nasa Project",
+    "Description":"For the first collaborative project of our bootcamp, my group and I chose to integrate a SpaceX API, DarkSky's weather API, and a Nasa API into an interactive website. We made use of Bulma to create interactive timelines detailing the history of both Nasa and SpaceX. On our 'Mission Data' tab, responses from the API were used to populate tables with NASA project information and SpaceX flight data with links to articles & YouTube as well as display pictures of each flight's respective rocket.",
+    "Link":"https://reidbuckingham48.github.io/spacex-nasa-flight-data/index.html",
+    "Image":"/static/media/Project1a.01ce1a0c.PNG"
+  },
+  {
+    "Style":"dark",
+    "Title":"Team Builder",
+    "Description":" This JavaScript powered team builder allows the user to generate a template for teams with the roles of each person on that team using a command line interface. ",
+    "Link":"https://github.com/ubern00bie/Team-Builder",
+    "Image":"/static/media/teamBuilder.97539105.PNG"
+  },
+  {
+    "Style":"light",
+    "Title":"Staff Manager",
+    "Description":"This command line app allows the user to keep track of employess within their company database. Employee information is saved to a local MySQL server where that information can be modified and queried to keep track of employees, roles, salaries, and their managers.",
+    "Link":"https://github.com/ubern00bie/staffManager",
+    "Image":"/static/media/staffManager.ae4b7504.PNG"
+  },
+  {
+    "Style":"dark",
+    "Title":"Note Taker",
+    "Description":"This note taking app is powered by javascript and is excellent for keeping track of tasks throughout the day. The user can create and delete notes which are saved to local storage allowing the user to access the saved notes even after the window has been closed.",
+    "Link":"https://github.com/ubern00bie/Note_Taker",
+    "Image":"/static/media/NoteTaker.94c5734e.PNG"
+  }
+  
+]
