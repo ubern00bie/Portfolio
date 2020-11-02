@@ -14,7 +14,7 @@ const Contact = () => {
 
         <p>E-Mail: jbenningfield.dev@gmail.com</p>
         <p>Phone: (816)-536-7103</p>
-        <p>  LinkedIn: https://www.linkedin.com/in/jordan-benningfield'>www.linkedin.com/in/jordan-benningfield</p>
+        <p>LinkedIn: https://www.linkedin.com/in/jordan-benningfield jordan-benningfield</p>
       
         </article>
       </section> 
